@@ -8,7 +8,7 @@ public class HomeWork {
         String name = input.nextLine();
 
         System.out.println("Сколько лет вашему другу ?");
-        String age = input.nextLine();
+        int age = input.nextInt();
 
         System.out.println("Вашего другах зовут " + name + " ему " + age + " лет");
     }
