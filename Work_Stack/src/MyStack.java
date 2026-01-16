@@ -2,7 +2,7 @@ public class MyStack {
 
     static int size = 0;
     static int max_size = 5;
-    static int[] data = new  int[max_size];
+    static int[] data = new int[max_size];
 
     static void push(int value){
         if(size >= max_size){
