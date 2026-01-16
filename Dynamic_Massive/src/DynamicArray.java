@@ -62,4 +62,19 @@ public class DynamicArray {
         return data[index];
     }
 
+    static void sort(){
+        if(size == 0){
+            throw new IndexOutOfBoundsException("Array is empty!");
+        }
+        for (int i = 0; i < size - 1; i++) {
+            for (int n = i + 1; n < size; n++) {
+                if(data[i] > data[n]) {
+                    int temp = data[i];
+                    data[i] = data[n];
+                    data[n] = temp;
+                }
+            }
+        }
+    }
+
 }
