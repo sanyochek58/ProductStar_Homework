@@ -1,38 +1,11 @@
-public class Docent {
-
-    private String name;
-    private int age;
-    private String department;
-
-    public Docent(String name, int age, String department) {
-        this.name = name;
-        this.age = age;
-        this.department = department;
-    }
-
-    public String getName() {
-        return name;
-    }
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public String getDepartment() {
-        return department;
-    }
-    public void setDepartment(String department) {
-        this.department = department;
-    }
+public class Docent extends Person{
 
     @Override
-    public String toString() {
-        return "Docent [name=" + name + ", age=" + age + ", department=" + department + "]";
+    public void sayHi() {
+        System.out.println("Hi, student!");
+    }
+
+    public void goToDepartment(){
+        System.out.println("I am going to department!");
     }
 }

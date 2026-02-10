@@ -1,10 +1,27 @@
+import javax.print.Doc;
+
 public class Main {
     public static void main(String[] args) {
 
-        Student student = new Student("Max", 20, "MIREA");
-        Docent docent = new Docent("Andrew", 26, "MIREA");
+        Student student = new Student();
+        Docent docent = new Docent();
 
-        System.out.println(student);
-        System.out.println(docent);
+        student.setName("Jack");
+        student.setAge(23);
+        student.setHeight(177);
+        student.describePerson();
+
+        student.sayHi();
+
+        student.doParty();
+
+        docent.setName("Alex");
+        docent.setAge(28);
+        docent.setHeight(185);
+        docent.describePerson();
+
+        docent.sayHi();
+
+        docent.goToDepartment();
     }
 }
