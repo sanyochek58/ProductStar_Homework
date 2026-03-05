@@ -112,7 +112,7 @@ public class CoffeeShop {
                 return switch (size) {
                     case SMALL -> 1.0;
                     case MEDIUM -> 1.2;
-                    case BIG -> 1.4; // у тебя BIG вместо LARGE
+                    case BIG -> 1.4;
                 };
             }
         }
