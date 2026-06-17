@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
 
     private static String handleString(String input){
-        String regex = "[а-яёА-ЯЁ: ]+";
+        String regex = "[а-яёА-ЯЁa-zA-Z: ]+";
         return input.replaceAll(regex, "");
     }
 
