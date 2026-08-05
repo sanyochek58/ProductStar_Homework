@@ -1,0 +1,114 @@
+[
+  {
+    "users": [
+      {
+        "surname": "Новиков",
+        "firstName": "Дмитрий",
+        "age": 30,
+        "sex": "мужской",
+        "numberPassport": "973967",
+        "codePassport": "9167"
+      },
+      {
+        "surname": "Морозов",
+        "firstName": "Сергей",
+        "age": 36,
+        "sex": "мужской",
+        "numberPassport": "630129",
+        "codePassport": "2436"
+      }
+    ],
+    "destination": {
+      "from": "Китай",
+      "to": "Индия"
+    }
+  },
+  {
+    "users": [
+      {
+        "surname": "Петрова",
+        "firstName": "Мария",
+        "age": 55,
+        "sex": "женский",
+        "numberPassport": "720241",
+        "codePassport": "3014"
+      },
+      {
+        "surname": "Смирнов",
+        "firstName": "Сергей",
+        "age": 24,
+        "sex": "мужской",
+        "numberPassport": "401439",
+        "codePassport": "4472"
+      }
+    ],
+    "destination": {
+      "from": "Казахстан",
+      "to": "Япония"
+    }
+  },
+  {
+    "users": [
+      {
+        "surname": "Сидоров",
+        "firstName": "Дмитрий",
+        "age": 44,
+        "sex": "мужской",
+        "numberPassport": "735351",
+        "codePassport": "2451"
+      }
+    ],
+    "destination": {
+      "from": "Сербия",
+      "to": "Бразилия"
+    }
+  },
+  {
+    "users": [
+      {
+        "surname": "Морозов",
+        "firstName": "Сергей",
+        "age": 25,
+        "sex": "мужской",
+        "numberPassport": "183692",
+        "codePassport": "1354"
+      }
+    ],
+    "destination": {
+      "from": "Германия",
+      "to": "Индия"
+    }
+  },
+  {
+    "users": [
+      {
+        "surname": "Сидорова",
+        "firstName": "Елена",
+        "age": 47,
+        "sex": "женский",
+        "numberPassport": "849291",
+        "codePassport": "8343"
+      },
+      {
+        "surname": "Морозова",
+        "firstName": "Елена",
+        "age": 62,
+        "sex": "женский",
+        "numberPassport": "112037",
+        "codePassport": "4118"
+      },
+      {
+        "surname": "Смирнов",
+        "firstName": "Андрей",
+        "age": 43,
+        "sex": "мужской",
+        "numberPassport": "752179",
+        "codePassport": "4810"
+      }
+    ],
+    "destination": {
+      "from": "Италия",
+      "to": "Япония"
+    }
+  }
+]
